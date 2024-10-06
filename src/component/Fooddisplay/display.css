@@ -1,0 +1,17 @@
+
+.display{
+    margin-top: 30px;
+}
+.display h2{
+    font-size:30px;
+    font-weight: 700;
+}
+
+.display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(290px,1fr)) ;
+    margin-top: 40px;
+    gap: 40px;
+    /* row-gap: 60px; */
+    justify-content: space-around;}
+

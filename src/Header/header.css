@@ -1,0 +1,66 @@
+ .header{
+    height: 40vw;
+    margin: 30px auto;
+    background-image: url("/src/Images/header_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+ }
+
+ .header-cont{
+  position: absolute; 
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2.5vw;
+  max-width: 50%;
+  bottom: 10%;
+  left: 6vw;
+ }
+
+ .header-cont h1{
+    font-weight: 600;
+    color: white;
+    font-size: max(4.5vw,22px);
+ }
+
+ .header-cont p{
+    color: white;
+    font-size: 1.2vw;
+ }
+ .header-cont button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+ }
+
+ .header-cont button:hover{
+   background-color: rgb(81, 243, 100);
+ }
+/* 
+ @media (max-width:1050px){
+   
+    .header-cont{
+     max-width:45%;
+   }
+
+ }
+
+ @media (max-width:750px){
+  
+    .header-cont{
+     max-width:65%;
+   }
+  .header-cont p{
+   display: none;
+  }
+  .header-cont button{
+   padding: 2vw 4vw;
+  }
+
+ } */

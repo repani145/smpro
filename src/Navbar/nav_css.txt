@@ -1,0 +1,103 @@
+.md-navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%; /* Ensure the navbar spans the full width of the window */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  /* overflow-x: hidden; Prevent horizontal overflow */
+}
+
+.md-navbar .logo {
+  width: 60px;
+  height: 60px;
+}
+
+.n-menu {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  color: #6473a3;
+  font-size: 20px;
+  flex-grow: 1; /* Allows the menu to take up available space */
+  justify-content: center; /* Center the menu items */
+  overflow-x: auto; /* Allows menu items to wrap within the navbar if needed */
+}
+
+.serach {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Add space between search, cart, and profile image */
+  white-space: nowrap; /* Prevent wrapping of icons */
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative; /* Allows positioning of dropdown */
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Circular profile image */
+}
+
+.dropdown-item {
+  position: absolute;
+  top: 50px; /* Position below the profile image */
+  right: 0; /* Align to the right */
+  background-color: white;
+  border: 1px solid #ddd; /* Light border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000; /* Ensure it appears above other elements */
+  min-width: 100px; /* Minimum width for the dropdown */
+  display: block; /* Ensure dropdown is displayed */
+}
+
+.md-navbar button {
+  background-color: transparent;
+  font-size: 20px;
+  color: #6473a3;
+  border: 1px solid rgb(235, 127, 109);
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.md-navbar button:hover {
+  background-color: rgb(246, 213, 166);
+}
+
+.md-navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #6473a3;
+}
+
+.md-navbar li {
+  cursor: pointer;
+}
+
+.b-icon {
+  position: relative;
+}
+
+.b-icon .dot {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: red;
+  border-radius: 10px;
+  top: -6px;
+  right: -6px;
+}
+
+
+span{
+  color: white;
+}

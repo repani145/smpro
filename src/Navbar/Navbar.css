@@ -1,0 +1,66 @@
+.md-navbar {
+    
+    background-color: black;
+    width: 100%; 
+    box-sizing: border-box; 
+    
+  }
+
+  span{
+    color: rgb(134, 152, 245);
+  }
+
+  span:hover{
+    color: rgb(134, 198, 198);
+  }
+
+
+  .md-navbar .logo {
+    width: 60px;
+    height: 60px;
+  }
+  .serach {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Add space between search, cart, and profile image */
+    white-space: nowrap; /* Prevent wrapping of icons */
+  }
+
+  .b-icon {
+    position: relative;
+  }
+  
+  .b-icon .dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: red;
+    border-radius: 10px;
+    top: -6px;
+    right: -6px;
+  }
+
+  .md-navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #6473a3;
+  }
+
+ /* Ensure navbar-toggler button remains red in both states (collapsed and expanded) */
+.navbar-toggler {
+  background-color: white !important;
+  border-color: rgb(255, 106, 0); /* Optional: change the border color to match */
+}
+
+
+/* Optional: If you want the button to retain the color when clicked or focused */
+.navbar-toggler:focus, 
+.navbar-toggler:active {
+  background-color: rgb(255, 102, 0);
+  border-color: hsl(23, 100%, 50%);
+}
+
+@media(max-width:400px){
+    span{
+      width: 100%;
+    }
+  }  

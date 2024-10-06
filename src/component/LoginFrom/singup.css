@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main-signup {
+    background-color: hsl(0, 16%, 85%);
+    padding: 20px 30px;
+    padding-left: 70px;
+    margin: 0 auto;
+    width: 90%; /* Set a wider width for smaller screens */
+    max-width: 500px; /* Limit the max width on larger screens */
+    margin-top: 100px;
+    border-top: 5px solid hsl(60, 100%, 72%);
+}
+
+.main-signup .headers {
+    width: 100%;
+}
+
+.main-signup .headers h2 {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.main-signup .box {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main-signup .box input {
+    width: 90%; /* Full width */
+    height: 40px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    outline: none;
+    border: none;
+    border: 2px solid #2e2d2d;
+}
+
+.main-signup p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    text-align: center; /* Center text for better alignment */
+}
+
+.main-signup button {
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: #f6f65e;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Center the button */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main-signup {
+        width: 95%;
+        padding: 15px 20px;
+    }
+
+    .main-signup .headers h2 {
+        font-size: 16px;
+    }
+    
+    .main-signup button {
+        width: 50%;
+        padding: 12px;
+    }
+}
