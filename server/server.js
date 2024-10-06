@@ -1,7 +1,7 @@
 // server.js
 // require('dotenv').config();
 const express = require('express');
-const stripe = require('stripe')('sk_test_51Pw4zqCfbvsxLfXUc6aYQ6HGPZh9HgrHWUGKWHKH93voUQV9x4bgEHFpnTwvxbRJDri4WZ09Hkj6VMOHgGl81ybR00UU6Xv5qN');
+const stripe = require('stripe')('sk_test_51PxBb908YgRZafEKv56vIVIAMm8CwLxzHDLvUTJrJi9Ll3K650CA2fD3OtG8wW49E1kLWKsQZvixthThEZFf1RMm00oWJqPTv8');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 

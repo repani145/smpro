@@ -14,7 +14,7 @@ import { AppProvider } from "./Components/context/Context";
 
 // Replace with your actual Stripe public key
 const stripePromise = loadStripe(
-  "pk_test_51PfO6vRtjACyAhQqmbsk1NdCGwD1xGTVxAiQkWmpLrgQ6ifjygOiGCzrhBE3H8U68beHRusG0rXU6tKcjX7o1uYL001odmBYYM"
+  "pk_test_51PxBb908YgRZafEKJRCt6mIjzAdRLeVUmhv9vTmGuIRVTJGNd7bvIjnbf4Zz3yaICAi4Zv1Igwk8jgSp2AEZwznT00nCkDZ6II"
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
